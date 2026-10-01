@@ -1,9 +1,74 @@
 :root {
-  font-family: Inter, 'Segoe UI', sans-serif;
+  --color-root-text: #eaf8ff;
+  --color-root-background: #020b13;
+  --color-background-top: #edf6ff;
+  --color-background-upper: #dfeeff;
+  --color-background-middle: #cfe4ff;
+  --color-background-bottom: #eef6ff;
+  --color-header-border: rgba(72, 122, 196, 0.18);
+  --color-header-surface: rgba(255, 255, 255, 0.62);
+  --color-header-shadow: rgba(12, 52, 92, 0.04);
+  --color-brand: #0c3b66;
+  --color-navigation: #285c8d;
+  --color-navigation-hover: #0d72d5;
+  --color-hero-start: rgba(236, 247, 255, 0.96);
+  --color-hero-end: rgba(212, 233, 255, 0.9);
+  --color-accent: #0c6dd6;
+  --color-heading: #0b2543;
+  --color-subheading: #2f5d8f;
+  --color-copy: #355f84;
+  --color-button-start: #5ec8ff;
+  --color-button-end: #1d6fe9;
+  --color-button-text: #f3fbff;
+  --color-button-shadow: rgba(29, 111, 233, 0.2);
+  --color-button-shadow-hover: rgba(29, 111, 233, 0.28);
+  --color-button-border: rgba(31, 102, 187, 0.22);
+  --color-button-secondary-text: #0d3f70;
+  --color-glass-white: rgba(255, 255, 255, 0.8);
+  --color-glass-white-soft: rgba(255, 255, 255, 0.72);
+  --color-fact-border: rgba(25, 112, 200, 0.14);
+  --color-fact-text: #1b4d7a;
+  --color-panel-border: rgba(26, 96, 179, 0.15);
+  --color-panel-start: rgba(255, 255, 255, 0.92);
+  --color-panel-end: rgba(218, 235, 255, 0.92);
+  --color-panel-shadow: rgba(56, 101, 155, 0.14);
+  --color-avatar-start: #7fd7ff;
+  --color-avatar-end: #176fe6;
+  --color-white: #fff;
+  --color-avatar-shadow: rgba(23, 111, 230, 0.22);
+  --color-panel-heading: #0d2f4d;
+  --color-panel-copy: #456a93;
+  --color-section-border: rgba(72, 122, 196, 0.16);
+  --color-section-surface: rgba(255, 255, 255, 0.45);
+  --color-skill-border: rgba(28, 101, 194, 0.14);
+  --color-skill-text: #1f4a7d;
+  --color-contact-border: rgba(22, 101, 202, 0.12);
+  --color-contact-start: rgba(255, 255, 255, 0.9);
+  --color-contact-end: rgba(219, 236, 255, 0.8);
+  --color-contact-shadow: rgba(33, 78, 120, 0.08);
+  --color-contact-shadow-hover: rgba(31, 98, 181, 0.12);
+  --color-contact-rail-start: #90d9ff;
+  --color-contact-rail-end: #196fe8;
+  --color-contact-icon-start: #9fe1ff;
+  --color-contact-icon-end: #1a7ae6;
+  --color-contact-icon-shadow: rgba(25, 122, 230, 0.18);
+  --color-contact-label: #0e6dce;
+  --color-contact-value: #163d64;
+  --color-phone-icon-start: #a7e0ff;
+  --color-phone-icon-end: #0f7ae6;
+  --color-email-icon-start: #9fe9ff;
+  --color-email-icon-end: #1d86d9;
+  --color-x-icon-start: #c7ecff;
+  --color-x-icon-end: #3b9ef5;
+  --color-github-icon-start: #b6e8ff;
+  --color-github-icon-end: #2a6ae5;
+  --color-footer-text: #1c4e7d;
+  --color-footer-surface: rgba(255, 255, 255, 0.56);
+  font-family: Inter, "Segoe UI", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #eaf8ff;
-  background: #020b13;
+  color: var(--color-root-text);
+  background: var(--color-root-background);
   color-scheme: dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,7 +87,13 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  background: radial-gradient(circle at top, #edf6ff 0%, #dfeeff 30%, #cfe4ff 48%, #eef6ff 100%);
+  background: radial-gradient(
+    circle at top,
+    var(--color-background-top) 0%,
+    var(--color-background-upper) 30%,
+    var(--color-background-middle) 48%,
+    var(--color-background-bottom) 100%
+  );
 }
 
 #root {
@@ -49,4 +120,3 @@ h4,
 p {
   margin-top: 0;
 }
-
