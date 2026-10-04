@@ -2,39 +2,42 @@ export default function Hero() {
   return (
     <section id="about" className="hero">
       <div className="hero-copy">
-        <p className="eyebrow">Student Engineer</p>
-        <h1>Hi, I’m Daniel Dela Apenuvor</h1>
+        <h1>KHOBBY DESIGNS</h1>
         <h2>Your imagination brought to life.</h2>
         <p className="lead">
-          I’m a passionate computer science student who enjoys building digital
-          experiences that combine creativity, logic, and problem-solving. I’m
-          constantly learning, exploring new tools, and turning ideas into
-          impactful web experiences.
+          Welcome to the official website of <b>Khobby Designs.</b>
+          <br></br>
+          Hi, I’m Daniel Dela Apenuvor, the brain behind{" "}
+          <em>KHOBBY DESIGNS. </em>
+          I’m a university student who enjoys building digital experiences that
+          combine creativity, logic, and problem-solving. I’m constantly
+          learning, exploring new tools, and turning ideas into impactful web
+          experiences. I am also into graphic design and together we can take
+          your brand to the next level.
         </p>
 
         <div className="hero-actions">
-          <a href="#skills" className="primary-btn">
+          <a href="#skills" className="secondary-btn">
             View Skills
+          </a>
+          <a href="#projects" className="primary-btn">
+            View My Works
           </a>
           <a href="#contact" className="secondary-btn">
             Let’s connect
           </a>
         </div>
-
-        <ul className="quick-facts" aria-label="Quick facts">
-          <li>Web Development</li>
-          <li>Creative Design</li>
-          <li>Continuous Learning</li>
-        </ul>
       </div>
 
       <div className="hero-panel" aria-label="Profile summary">
         <div className="panel-card">
           <div className="avatar-ring">
-            <div className="avatar">DA</div>
+            <img src="/public/khobbyDesigns.jpg"></img>
           </div>
-          <span className="panel-label">Currently learning</span>
-          <strong>Frontend + design systems</strong>
+          <span className="panel-label">
+            <h3>Expert In </h3>
+          </span>
+          <strong>Graphic Design and Web Development</strong>
           <p>Building clean, functional, and memorable user experiences.</p>
         </div>
       </div>
