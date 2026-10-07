@@ -32,7 +32,7 @@ export default function Hero() {
       <div className="hero-panel" aria-label="Profile summary">
         <div className="panel-card">
           <div className="avatar-ring">
-            <img src="/public/khobbyDesigns.jpg"></img>
+            <img src="/public/khobbyDesigns.jpg" alt="Khobby Designs Profile"></img>
           </div>
           <span className="panel-label">
             <h3>Expert In </h3>
