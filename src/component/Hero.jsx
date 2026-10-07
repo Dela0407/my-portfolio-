@@ -2,19 +2,6 @@ export default function Hero() {
   return (
     <section id="about" className="hero">
       <div className="hero-copy">
-        
-      <div className="hero-panel" aria-label="Profile summary">
-        <div className="panel-card">
-          <div className="avatar-ring">
-            <img src="/khobbyDesigns.jpg" alt="Khobby Designs Profile"></img>
-          </div>
-          <span className="panel-label">
-            <h3>Expert In </h3>
-          </span>
-          <strong>Graphic Design and Web Development</strong>
-          <p>Building clean, functional, and memorable user experiences.</p>
-        </div>
-      </div>
         <h1>KHOBBY DESIGNS</h1>
         <h2>Your imagination brought to life.</h2>
         <p className="lead">
@@ -42,6 +29,18 @@ export default function Hero() {
         </div>
       </div>
 
+      <div className="hero-panel" aria-label="Profile summary">
+        <div className="panel-card">
+          <div className="avatar-ring">
+            <img src="/khobbyDesigns.jpg" alt="Khobby Designs Profile"></img>
+          </div>
+          <span className="panel-label">
+            <h3>Expert In </h3>
+          </span>
+          <strong>Graphic Design and Web Development</strong>
+          <p>Building clean, functional, and memorable user experiences.</p>
+        </div>
+      </div>
     </section>
   );
 }
